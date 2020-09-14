@@ -1,0 +1,83 @@
+@media (min-width:768px){
+	.custom_width{
+		width:20%;
+		padding: 0px 5px;
+	}
+}
+.pricing_box{
+	text-align: center;
+    box-shadow: 0px 0px 5px #8c8b8b;
+    margin: 20px 0px;
+    transition: all 500ms;
+    background: #fff;
+    border-radius: 5px;
+    position: relative;
+	
+}
+.pricing_box:hover{
+	box-shadow:0px 0px 10px #333;
+	transform: scale(1.1);
+	z-index:10;
+}
+.pricing_box h3{
+	margin:0px;
+	padding:30px 0px 20px 0px;
+	border-bottom:1px solid #f0f0f0;
+	color:#fff;
+	overflow:hidden;
+	position:relative;
+	border-radius: 5px 5px 0px 0px;
+}
+.pricing_box h3:before{
+	content: "\f107";
+    font-family: fontAwesome;
+    display: block;
+    height: 30px;
+    width: 30px;
+    background: #000000;
+    margin: auto;
+    left: 0;
+    right: 0;
+    margin-top: -50px;
+    transform: rotate(45deg);
+    position: absolute;
+    border-radius: 10px;
+    opacity: 0.1;
+}
+.pricing_box h3:after{
+	content: 'plan';
+    display: block;
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-top: 10px;
+}
+.price_section .custom_width:nth-child(1) .pricing_box h3{background:linear-gradient(to top,#03A9F4,#0072ff)}
+.price_section .custom_width:nth-child(2) .pricing_box h3{background:linear-gradient(to top,#8BC34A,#4CAF50)}
+.price_section .custom_width:nth-child(3) .pricing_box h3{background:linear-gradient(to top,#ffbc00,#f3d607)}
+.price_section .custom_width:nth-child(4) .pricing_box h3{background:linear-gradient(to top,#3F51B5,#0b1b63)}
+.price_section .custom_width:nth-child(5) .pricing_box h3{background:linear-gradient(to top,#E91E63,#960436)}
+.pricing_box ul{
+	list-style:none;
+	padding:0px
+}
+.pricing_box ul li{
+	padding:10px 0px;
+	border-bottom:1px solid #f0f0f0;
+}
+.pricing_box ul li span{
+	font-weight:200;
+	font-size:17px;
+}
+.pricing_box .section-btn{
+	margin:10px 0px 20px 0px;
+	border:1px solid #ddd !Important;
+	padding: 10px 30px;
+}
+.custom_width:nth-child(3) .pricing_box{
+	transform: scale();
+	z-index:4
+}
+.custom_width:nth-child(2) .pricing_box,
+.custom_width:nth-child(4) .pricing_box{
+	transform: scale();
+}

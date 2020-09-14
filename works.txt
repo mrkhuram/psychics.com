@@ -1,0 +1,16 @@
+fetching all invoices... add new invoice... delete invoice...
+fetching all Packages... add new package.. delete package...
+fectching all Coupons... add new coupon... delete coupon...
+fetching all announcement List.... add new announcement... delete announcement...
+
+
+admin@psychics.com
+admintest
+
+client
+testing1@psychics.com
+testing123
+
+reader
+testing@psychics.com
+testing123
