@@ -19,6 +19,7 @@ import UserHome from './userLogin/homeDeshboard'
 import UserEdit from './userLogin/editAcc'
 import UserPsychics from './userLogin/ourPsychis'
 import UserAndArtical from './userLogin/blogsArticle'
+import Message from './userLogin/message'
 import ChatHistory from './userLogin/chatHistroy'
 import Notication from './userLogin/notification'
 import PurchaseHistory from './userLogin/purchaseHistory'
@@ -118,7 +119,7 @@ class Guru extends React.Component {
                                 <Route exact path="/user_dashboard/purchaseHistory" component={PurchaseHistory} />
                                 <Route exact path="/user_dashboard/referAfriend" component={ReferFriend} />
                                 <Route exact path="/user_dashboard/reportAbuse" component={ReportAbuse} />
-                                {/* <Route exact path="/user_dashboard/message" component={Message} /> */}
+                                <Route exact path="/user_dashboard/message" component={Message} />
                                 <Route exact path="/reader_deshboard/home" component={ReaderHome} />
                                 <Route exact path="/reader_deshboard/myProfile" component={ReaderProfile} />
                                 <Route exact path="/reader_dashboard/chatHistory" component={ChatHistory} />
